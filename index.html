@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ENLACE DEL DOCUMENTO DE ESTILOS CSS -->
+    <link rel="stylesheet" href="./Styles/Styles.css" />
+    <!-- ENLACE DE LA LIBRERIA FONTAWESOME -->
+    <link rel="stylesheet" href="./Librerias/fontawesome/css/all.min.css" />
+    <!-- ICONO QUE APARECE EN LAS PESTAÑAS DEL NAVEGADOR -->
+    <link rel="shortcut icon" href="./img/Logo-Small.png" />
+    <!-- TEXTO QUE APARECE EN LAS PESTAÑAS DEL NAVEGADOR -->
+    <title>Italian Food</title>
+  </head>
+
+  <body>
+    <!-- CONTENEDOR DEL ENCABEZADO -->
+    <div class="menuPrincipal">
+      <!-- LOGO DE LA PAGINA -->
+      <div class="logo" id="logo">
+        <img src="./img/logo.png" alt="" />
+      </div>
+      <!-- MENU DE NAVEGACION -->
+      <div class="menuBar" id="menuBar">
+        <!-- BOTON PARA CERRAR EL MENU CUANDO ES RESPONSIVE -->
+        <i class="fas fa-angle-right" id="btnCloseMenu"></i>
+        <!-- BOTONES O ENLACES DEL MENU DE NAVEGACION -->
+        <nav class="enlaces" id="enlaces">
+          <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+        
+        <!-- ICNONOS DE LAS REDES SOCIALES -->
+        <div class="redesSociales">
+          <a href="#"><span class="fab fa-facebook"></span></a>
+          <a href="#"><span class="fab fa-instagram"></span></a>
+          <a href="#"><span class="fab fa-twitter"></span></a>
+          <a href="#"><span class="fab fa-youtube"></span></a>
+        </div>
+      </div>
+      <!-- BOTON PARA ABRIR EL MENU CUANDO ES RESPONSIVE -->
+      <i class="fas fa-bars" id="btnOpenMenu"></i>
+    </div>
+
+    <!-- SLIDER DE IMAGENES DE PRODUCTOS -->
+    <section id="menuProductos">
+      <div class="containerPrincipalProductos">
+        <button id="btnIzquierda">
+          <span class="fas fa-angle-left"></span>
+        </button>
+
+        <div class="slider">
+          <div class="containerProductos">
+            <div class="descripcionProductos">
+              <h2>Producto <b>Premium</b></h2>
+              <h1>porchetta</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident debitis nihil incidunt quisquam ab reiciendis
+                consequuntur iure.
+              </p>
+
+              <button class="btn">
+                Solicitala aquí <span class="fas fa-angle-right"></span>
+              </button>
+            </div>
+
+            <div class="imagenProductos">
+              <img src="./img/porchetta.png" alt="" />
+            </div>
+          </div>
+
+          <div class="containerProductos">
+            <div class="descripcionProductos">
+              <h2>Producto <b>Premium</b></h2>
+              <h1>Especial</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident debitis nihil incidunt quisquam ab reiciendis
+                consequuntur iure.
+              </p>
+
+              <button class="btn">
+                Solicitala aquí <span class="fas fa-angle-right"></span>
+              </button>
+            </div>
+
+            <div class="imagenProductos">
+              <img src="./img/Pizza1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="containerProductos">
+            <div class="descripcionProductos">
+              <h2>Producto <b>Premium</b></h2>
+              <h1>Vegetariana</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident debitis nihil incidunt quisquam ab reiciendis
+                consequuntur iure.
+              </p>
+
+              <button class="btn">
+                Solicitala aquí <span class="fas fa-angle-right"></span>
+              </button>
+            </div>
+
+            <div class="imagenProductos">
+              <img src="./img/Pizza2.png" alt="" />
+            </div>
+          </div>
+
+          <div class="containerProductos">
+            <div class="descripcionProductos">
+              <h2>Producto <b>Especial</b></h2>
+              <h1>Lasagna</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident debitis nihil incidunt quisquam ab reiciendis
+                consequuntur iure.
+              </p>
+
+              <button class="btn">
+                Solicitala aquí <span class="fas fa-angle-right"></span>
+              </button>
+            </div>
+
+            <div class="imagenProductos">
+              <img src="./img/lasagna.png" alt="" />
+            </div>
+          </div>
+
+          <div class="containerProductos">
+            <div class="descripcionProductos">
+              <h2>Producto <b>Especial</b></h2>
+              <h1>Pasta</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident debitis nihil incidunt quisquam ab reiciendis
+                consequuntur iure.
+              </p>
+
+              <button class="btn">
+                Solicitala aquí <span class="fas fa-angle-right"></span>
+              </button>
+            </div>
+
+            <div class="imagenProductos">
+              <img src="./img/pasta.png" alt="" />
+            </div>
+          </div>
+
+          <div class="containerProductos">
+            <div class="descripcionProductos">
+              <h2>Producto <b>Básico</b></h2>
+              <h1>Ensalada</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident debitis nihil incidunt quisquam ab reiciendis
+                consequuntur iure.
+              </p>
+
+              <button class="btn">
+                Solicitala aquí <span class="fas fa-angle-right"></span>
+              </button>
+            </div>
+
+            <div class="imagenProductos">
+              <img src="./img/ensalada.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <button id="btnDerecha">
+          <span class="fas fa-angle-right"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SECCIÓN SERVICIOS -->
+    <section id="servicios">
+      <div class="serviciosTitulos">
+        <h2 class="subtitulos">La mejor pizza del mundo</h2>
+        <h1 class="titulos">Bienvenidos a Italian Food</h1>
+      </div>
+
+      <div class="serviciosContainer">
+        <div class="imagenCentral">
+          <img src="./img/imagen-central.png" alt="">
+        </div>
+
+        <div class="items calidad">
+          <span class="fas fa-pizza-slice"></span>
+          <p class="tituloItem">Calidad</p>
+          <p class="textoItem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eum obcaecati qui modi.</p>
+        </div>
+
+        <div class="items ingredientes">
+          <span class="fas fa-cheese"></span>
+          <p class="tituloItem">Ingredientes</p>
+          <p class="textoItem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eum obcaecati qui modi.</p>
+        </div>
+
+        <div class="items rapidez">
+          <span class="fas fa-clock"></span>
+          <p class="tituloItem">Rápidez</p>
+          <p class="textoItem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eum obcaecati qui modi.</p>
+        </div>
+
+        <div class="items delivery">
+          <span class="fas fa-shipping-fast"></span>
+          <p class="tituloItem">Delivery</p>
+          <p class="textoItem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eum obcaecati qui modi.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION EQUIPO DE TRABAJO -->
+    <section id="equipo">
+      <div class="persona">
+        <img src="./img/chef1.png" alt="" class="personaImagen">
+        <div class="personaInfo">
+          <h2>Alonzo Mancini</h2>
+          <p>Chef Pizzero</p>
+          <div class="socialMedia">
+            <a href=""><span class="fab fa-facebook"></span></a>
+            <a href=""><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-twitter"></span></a>
+            <a href=""><span class="fab fa-linkedin"></span></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="persona">
+        <img src="./img/chef2.png" alt="" class="personaImagen">
+        <div class="personaInfo">
+          <h2>Alessandro Bianchi</h2>
+          <p>Chef Asistente</p>
+          <div class="socialMedia">
+            <a href=""><span class="fab fa-facebook"></span></a>
+            <a href=""><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-twitter"></span></a>
+            <a href=""><span class="fab fa-linkedin"></span></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="persona">
+        <img src="./img/chef3.png" alt="" class="personaImagen">
+        <div class="personaInfo">
+          <h2>Lucrezia Baraldi</h2>
+          <p>Chef Asistente</p>
+          <div class="socialMedia">
+            <a href=""><span class="fab fa-facebook"></span></a>
+            <a href=""><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-twitter"></span></a>
+            <a href=""><span class="fab fa-linkedin"></span></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="persona">
+        <img src="./img/chef4.png" alt="" class="personaImagen">
+        <div class="personaInfo">
+          <h2>Filippo Lombardo</h2>
+          <p>Chef</p>
+          <div class="socialMedia">
+            <a href=""><span class="fab fa-facebook"></span></a>
+            <a href=""><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-twitter"></span></a>
+            <a href=""><span class="fab fa-linkedin"></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION DE INGREDIENTES -->
+    <section id="ingredientes">
+      <div class="ingre">
+        <img src="./img/Quesos.jpg" alt="" class="imagenIngre">
+        <div class="infoIngre">
+          <p><span class="fas fa-cheese"></span></p>
+          <p class="txtIngre">Quesos</p>
+        </div>
+      </div>
+      
+      <div class="ingre">
+        <img src="./img/Vegetales.jpg" alt="" class="imagenIngre">
+        <div class="infoIngre">
+          <p><span class="fas fa-leaf"></span></p>
+          <p class="txtIngre">Vegetales</p>
+        </div>
+      </div>
+      
+      <div class="ingre">
+        <img src="./img/Salsa.jpg" alt="" class="imagenIngre">
+        <div class="infoIngre">
+          <p><span class="fas fa-fill-drip"></span></p>
+          <p class="txtIngre">Salsa</p>
+        </div>
+      </div>
+      
+      <div class="ingre">
+        <img src="./img/Salami.jpg" alt="" class="imagenIngre">
+        <div class="infoIngre">
+          <p><span class="fas fa-drumstick-bite"></span></p>
+          <p class="txtIngre">Carnes</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION DE CONTACTO -->
+    <section id="contacto">
+      <div class="tituloContacto">
+        <h2 class="subtitulos">Queremos conocer tu opinión</h2>
+        <h1 class="titulos">Contáctanos</h1>
+      </div>
+
+      <form action="" id="formulario">
+        <div class="twoFields">
+          <div class="inputConIcono">
+            <input type="text" id="nombre" name="nombre" class="inputText" placeholder="Nombre">
+            <i class="fas fa-user"></i>
+          </div>
+          
+          <div class="inputConIcono">
+            <input type="email" id="email" name="email" class="inputEmail" placeholder="Email">
+            <i class="fas fa-envelope"></i>
+          </div>
+        </div>
+
+        <div class="fields">
+          <div class="inputConIcono textAreaIcon">
+            <textarea name="comentarios" id="comentarios" class="textArea" placeholder="Ingrese su mensaje"></textarea>
+            <i class="fas fa-comments"></i>
+          </div>
+        </div>
+
+        <div class="fieldsBtn">
+          <input type="submit" class="btn btnInput" value="Enviar">
+        </div>
+      </form>
+    </section>
+
+    <!-- ALERTAS DEL NAVEGADOR -->
+    <div class="alertas">
+      <div id="alertaError" class="alert hide">
+        <span class="iconoAlerta fas fa-exclamation-circle"></span>
+        <span class="mensaje">Error: campos de entrada vacíos.</span>
+      </div>
+      
+      <div id="alertaExito" class="alert hide">
+        <span class="iconoAlerta fas fa-check-circle"></span>
+        <span class="mensaje">¡ Datos envíados ! Gracias por contáctarnos.</span>
+      </div>
+    </div>
+
+    <!-- SECCIÓN FOOTER -->
+    <footer>
+      <div class="socialesMetodo">
+        <i class="fas fa-map-marked-alt"></i>
+        <span>Lorem ipsum dolor sit amet.</span>
+      </div>
+      
+      <div class="socialesMetodo">
+        <i class="fas fa-envelope"></i>
+        <span>info@italianfood.com</span>
+      </div>
+      
+      <div class="socialesMetodo">
+        <i class="fas fa-phone"></i>
+        <span>+57 300 444 5566</span>
+      </div>
+      
+      <div class="socialesMetodo">
+        <i class="fab fa-instagram"></i>
+        <span>#italianfood.</span>
+      </div>
+    </footer>
+
+
+    <!-- BOTON PARA IR HACIA LA PARTE SUPERIOR DE LA PÁGINA -->
+    <div id="btnTop">
+      <span class="fas fa-angle-up"></span>
+    </div>
+
+
+    <!-- ENLACE DEL DOCUMENTO JS -->
+    <script src="./JS/JavaScript.js"></script>
+  </body>
+</html>
