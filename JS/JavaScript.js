@@ -27,12 +27,12 @@ let contenedor = document.querySelector(".slider");
 let btnIzquierda = document.getElementById("btnIzquierda");
 let btnDerecha = document.getElementById("btnDerecha");
 
-/* EVENTO PRA EL BOTON A LA DERECHA */
+/* EVENTO PARA EL BOTON A LA DERECHA */
 btnDerecha.addEventListener("click", function () {
   contenedor.scrollLeft += contenedor.offsetWidth;
 });
 
-/* EVENTO PRA EL BOTON A LA IZQUIERDA */
+/* EVENTO PARA EL BOTON A LA IZQUIERDA */
 btnIzquierda.addEventListener("click", function () {
   contenedor.scrollLeft -= contenedor.offsetWidth;
 });
