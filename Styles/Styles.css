@@ -916,3 +916,132 @@ footer{
     display: none;
   }
 }
+
+
+/* PANTALLAS MAS PEQUEÑAS */
+@media screen and (max-width: 400px){
+  /* ESTILOS GENERALES */
+  .titulos{
+    font-size: 25px;
+  }
+  
+  .subtitulos{
+    font-size: 20px;
+  }
+
+
+ /* MENU PRINCIPAL */
+ .menuPrincipal {
+  padding: 45px 5px;
+}
+
+ .menuBar .enlaces ul li a {
+  font-size: 20px;
+}
+
+
+/* SLIDER DE IMAGENES DE PRODUCTOS */
+.descripcionProductos{
+  margin:50px 0px 0px 0px;  
+}
+
+.imagenProductos img {
+  width: 100%;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+
+/* SECCIÓN SERVICIOS */
+#servicios{
+  padding: 0px 5px;
+}
+
+h2.subtitulos{
+  padding-top: 100px;
+}
+
+.items span{
+  width: 85px;
+  font-size: 35px;
+}
+
+
+/* SECCION EQUIPO DE TRABAJO */
+.personaImagen{
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: grayscale(80%);
+}
+
+.personaInfo h2{
+  font-size: 25px;
+}
+
+.socialMedia a{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+
+/* SECCION DE INGREDIENTES */
+#ingredientes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingre{
+  height: 150px;
+}
+
+.infoIngre p{
+  font-size: 25px;
+}
+
+
+/* SECCION DE CONTACTO */
+#contacto{
+  height: 100vh;
+  padding: 0px 5px;
+}
+
+#formulario{
+  width: 100%;
+}
+
+.twoFields{
+  flex-direction: column;
+}
+
+
+/* ALERTAS DEL NAVEGADOR */
+.alert{
+  width: 100%;
+}
+
+.alert .iconoAlerta{
+  font-size: 25px;
+}
+
+.alert .mensaje{
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+
+/* SECCIÓN FOOTER */
+footer{
+  display: flex;
+  margin-top: -200px;
+}
+
+.socialesMetodo i{
+  font-size: 25px;
+}
+
+}
